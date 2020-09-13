@@ -1,23 +1,23 @@
 # Munch API
 
-This project is creating an API for accessing the content of the textual works of Edvard Munch.
-The API is provided as a service for the following project: [Munch Search](https://github.com/amelie-fri/munch_search)
+This project is creating an API for accessing data regarding texts written by Edvard Munch.  
+The API is provided as a service for the following project: [munch_search](https://github.com/amelie-fri/munch_search)
 
 ## Getting Started
 
 To get started, please get a copy of this repository on your local drive and make sure the necessary software is installed.  
 
 ### `docker-compose build`
-This will build the `munch_api` docker image needed for the **Munch Search** Application.
+The command will build the `munch_api` docker image needed for the **munch_search** Application.
 
 ### `docker-compose up`
 To run the application as a separate service (for testing purposes).  
 
-Two APIs are provided with this application:  
+Two APIs are provided with the application:  
 `http://localhost:5000/N`  
 provides a list of all the files/parents found by the application.  
 
-The response is a json object with one key: `data`. `data` is a array with filenames/parent e.g.   
+The response is a JSON object with one key: `data`. `data` is a array with filenames/parents e.g.   
 {
     "data": [
         "MM_N3701.xml",
@@ -29,13 +29,13 @@ The following API is provided in order to retrieve the parsed data from the pare
 `http://localhost:5000/N/<parentfilename.xml>`  
 
 ### Prerequisites
-Docker necessary in order to use this project. Docker is available from:
+The installation of Docker is necessary for this project. Docker is available here:
 https://www.docker.com/get-started
 
-Python version 3.6 or above is needed and available from:  
+Python version 3.6 or above is needed and available here:  
 https://www.python.org/downloads/  
 The Python Package Index (PyPI) is included by default in python version 3.4 and above.  
-execute the following command in the command line to install the additional Python libraries needed for the project:  
+Execute the following command in the command line to install the additional Python libraries needed for the project:  
 `pip install -r requirements.txt`  
 
 ### Preparing the data 
