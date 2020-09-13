@@ -1,0 +1,5 @@
+Flask
+Flask-RESTful
+bs4
+lxml
+
