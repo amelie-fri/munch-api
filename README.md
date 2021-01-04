@@ -51,7 +51,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 **Amelie Fritsch** - https://github.com/amelie-fri
 
-Project Link: https://github.com/amelie-fri/munch_search
+Project Link: https://github.com/amelie-fri/munch-api
 
 ## Acknowledgments
 - Maximilian Konzack [Parsing TEI XML documents with Python](https://komax.github.io/blog/text/python/xml/parsing_tei_xml_python/)
